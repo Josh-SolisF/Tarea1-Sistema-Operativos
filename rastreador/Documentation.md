@@ -1,6 +1,8 @@
 # Informe: Rastreador de Syscalls en Rust
+Estudiante: Joshua Solís Fuentes Carné: 2023064637
 
 ## Introducción
+
 En las lecciones en clase hemos introducido conceptos clave como son las syscalls, una llamada al sistema que permite a una aplicación de usuario solicitar acciones que requieren privilegios especiales.  
 Lo hemos visto mucho en teoría, pero es necesario comprenderlo en la práctica.  
 
@@ -129,6 +131,64 @@ sudo ./target/release/rastreador -V /bin/rm /filetestV.txt
 * Solo funciona en sistemas Linux.
 * Requiere permisos de superusuario para rastrear algunos programas.
 * El output muestra argumentos en hexadecimal sin decodificación.
+
+### Reporte de commits Github:
+```
+commit cce242e4008f7e0a415ddf5c9fa377698a4809c6 (HEAD -> main, origin/main, origin/HEAD)
+Author: josh_lis <josh.solisf@gmail.com>
+Date:   Sat Aug 30 14:11:31 2025 -0600
+
+    Documentation
+
+commit 3f7e37d93b200b10869b5f6a82265c05026abc69
+Author: josh_lis <josh.solisf@gmail.com>
+Date:   Sat Aug 30 14:02:29 2025 -0600
+
+    executables
+
+commit c6f82e2f2bbe4ed0a9891deaae8734cb2fe27404
+Author: josh_lis <josh.solisf@gmail.com>
+Date:   Sat Aug 30 13:49:02 2025 -0600
+
+    main program
+
+commit 5158f3b88dba96dc09ec1b2eeb2967fbc6819d54
+Author: josh_lis <josh.solisf@gmail.com>
+Date:   Sat Aug 30 12:39:26 2025 -0600
+
+    c code to test
+
+commit afafba0987b801a20089a5fc1679c2ff4432833d
+Author: josh_lis <josh.solisf@gmail.com>
+Date:   Sat Aug 30 09:46:07 2025 -0600
+
+    Simple test file in python
+
+commit a7fa42099ae6c03aef754c7264063865195faafd
+Author: josh_lis <josh.solisf@gmail.com>
+Date:   Sat Aug 30 09:17:15 2025 -0600
+
+    dependencies on Cargo.toml
+
+commit 0741a09b5dca0dc06dbf46f9dd49be6c817b7ebf
+Author: josh_lis <josh.solisf@gmail.com>
+Date:   Fri Aug 29 22:38:54 2025 -0600
+
+    File for documentation and simple function to wait for key
+
+commit 42e6c6c089bee58e69fdfaed1f869e0d5e402164
+Author: josh_lis <josh.solisf@gmail.com>
+Date:   Fri Aug 29 20:27:53 2025 -0600
+
+    initial preparations for rust
+
+commit efcc82f088417039494df6540a46966c46b409b2
+Author: Josh-SolisF <josh.solisf@gmail.com>
+Date:   Fri Aug 29 20:25:29 2025 -0600
+
+    Initial commit
+(END)
+```
 
 
 ### Lecciones aprendidas:
