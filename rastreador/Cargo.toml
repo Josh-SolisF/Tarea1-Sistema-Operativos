@@ -2,5 +2,10 @@
 name = "rastreador"
 version = "0.1.0"
 edition = "2024"
-
+include = ["syscall.json"] #Json that has the number of the syscall and what is does
 [dependencies]
+nix = "0.26.2"        # UNIX interface for systemcalls
+owo-colors = "3.5.0"  # Output for color so the terminal looks and understands better
+serde_json = "1.0"    # Jason parsing
+clap = { version = "4.4", features = ["derive"] } # Line Parsing command lines
+termion = "2.0"  # Read lines
